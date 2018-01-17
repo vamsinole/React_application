@@ -1,0 +1,43 @@
+{
+  "name": "vamshi",
+  "version": "1.0.0",
+  "description": "React basic app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run build",
+    "build": "webpack -d && webpack-dev-server --content-base src/ --inline --hot --port 1234 --history-api-fallback"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vamsinole/React.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Vamshi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vamsinole/React/issues"
+  },
+  "homepage": "https://github.com/vamsinole/React#readme",
+  "dependencies": {
+    "elemental": "^0.6.1",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-modal": "^1.7.7",
+    "react-redux": "^5.0.4",
+    "react-router-dom": "^4.1.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.1",
+    "style-loader": "^0.17.0",
+    "react-flexbox-grid": "^1.1.3",
+    "webpack": "^2.5.1",
+    "webpack-dev-server": "^2.4.5"
+  }
+}

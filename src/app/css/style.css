@@ -1,0 +1,123 @@
+.todo-item {
+  padding: 16px 5px;
+  display: flex;
+  text-align: left;
+}
+
+.hover-bg:hover {
+  background: #eee;
+}
+
+.item-name {
+  flex-basis: 0;
+  flex-grow: 9;
+  margin-top: 7px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.item-remove {
+  flex-basis: 0;
+  flex-grow: 1;
+  text-align: right;
+  color: #7f4cc1;
+  font-weight: bold;
+  cursor: pointer;
+  padding-right: 10px;
+  margin-top: 5px;
+}
+
+body {
+  background: #eee;
+  margin: 20px;
+  font-family: tahoma;
+}
+
+#todo-label {
+  width: 60%;
+  margin: 0 auto;
+  background: #fff;
+  border-top: 3px solid #7f4cc1;
+  padding: 10px;
+  border-radius: 2px;
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.2);
+  color: #333;
+}
+
+#todo-label p {
+  color: #777;
+  font-style: italic;
+}
+
+#list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#add-todo {
+  display: flex;
+}
+
+#add-todo input[type="text"] {
+  flex-basis: 0;
+  flex-grow: 7;
+  padding: 10px;
+  border: 2px solid #7f4cc1;
+  border-radius: 4px 0 0 4px;
+  color: #777;
+}
+
+#add-todo input[type="submit"] {
+  flex-basis: 0;
+  flex-grow: 3;
+  padding: 10px;
+  background: #7f4cc1;
+  border-radius: 0 4px 4px 0;
+  border: 2px solid #7f4cc1;
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.middle_content {
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button_height {
+  height: 36px;
+  margin-top: 27px;
+  margin-left: 10px;
+  z-index: 0 !important;
+}
+
+.p-5-10 {
+  padding: 5px 10px;
+}
+
+.img-small {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
+
+.content {
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  float: none;
+  width: 50%;
+  background: lightgrey;
+  bottom: auto;
+}
+
+.myOverlayClass .beforeClose .afterOpen {
+  position: fixed;
+  top: 0;
+  left: 0,;
+  right: 0;
+  bottom: 0;
+  backgroundColor:rgba(255, 255, 255, 0.75);
+  z-index: 2;
+}

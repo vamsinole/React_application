@@ -1,0 +1,232 @@
+BODY {
+	COLOR: black; MARGIN: 0in
+}
+BLOCKQUOTE {
+	COLOR: black; FONT-FAMILY: verdana,arial,helvetica,sans-serif; FONT-SIZE: 9pt; LINE-HEIGHT: 120%; MARGIN-BOTTOM: 6pt; MARGIN-LEFT: 24pt; MARGIN-RIGHT: 16pt
+}
+abbr {
+	FONT-VARIANT: small-caps; LETTER-SPACING: 0.1em
+}
+ACRONYM {
+	FONT-VARIANT: small-caps; LETTER-SPACING: 0.1em
+}
+P {
+	COLOR: black; FONT-FAMILY: verdana,arial,helvetica,sans-serif; FONT-SIZE: 9pt; LINE-HEIGHT: 120%; MARGIN-BOTTOM: 6pt
+}
+HR {
+	COLOR: black; WIDTH: 100%; line-size: 1
+}
+HR.two {
+	COLOR: gray; WIDTH: 100%; line-size: 2
+}
+H1 {
+	COLOR: #333333; FONT-FAMILY: garamond,times,serif; FONT-SIZE: 30pt; FONT-WEIGHT: normal; LINE-HEIGHT: 90%; MARGIN-BOTTOM: 6pt
+}
+H2 {
+	COLOR: #333333; FONT-FAMILY: garamond,times,serif; FONT-SIZE: 24pt; FONT-WEIGHT: normal; LINE-HEIGHT: 100%; MARGIN-BOTTOM: 6pt
+}
+H3 {
+	COLOR: #333333; FONT-FAMILY: arial,helvetica,sans-serif; FONT-SIZE: 18pt; FONT-WEIGHT: 700; LINE-HEIGHT: 100%; MARGIN-BOTTOM: 6pt
+}
+H4 {
+	COLOR: #333333; FONT-FAMILY: times,serif; FONT-SIZE: 18pt; FONT-WEIGHT: normal; LINE-HEIGHT: 100%; MARGIN-BOTTOM: 6pt
+}
+H5 {
+	COLOR: #333333; FONT-FAMILY: arial,helvetica,sans-serif; FONT-SIZE: 14pt; FONT-WEIGHT: 700; LINE-HEIGHT: 105%; MARGIN-BOTTOM: 6pt
+}
+H6 {
+	COLOR: #333333; FONT-FAMILY: verdana,arial,helvetica,sans-serif; FONT-SIZE: 10pt; FONT-WEIGHT: 900; LINE-HEIGHT: 110%; MARGIN-BOTTOM: 6pt
+}
+LI {
+	COLOR: black; FONT-FAMILY: verdana,arial,helvetica,sans-serif; FONT-SIZE: 9pt; LINE-HEIGHT: 120%; MARGIN: 0pt; PADDING-BOTTOM: 0pt; PADDING-LEFT: 0pt; PADDING-RIGHT: 0pt; PADDING-TOP: 0pt
+}
+OL UL {
+	MARGIN: 0pt; PADDING-BOTTOM: 0pt; PADDING-LEFT: 0pt; PADDING-RIGHT: 0pt; PADDING-TOP: 0pt
+}
+UL OL {
+	MARGIN: 0pt; PADDING-BOTTOM: 0pt; PADDING-LEFT: 0pt; PADDING-RIGHT: 0pt; PADDING-TOP: 0pt
+}
+UL UL {
+	MARGIN: 0pt; PADDING-BOTTOM: 0pt; PADDING-LEFT: 0pt; PADDING-RIGHT: 0pt; PADDING-TOP: 0pt
+}
+OL OL {
+	MARGIN: 0pt; PADDING-BOTTOM: 0pt; PADDING-LEFT: 0pt; PADDING-RIGHT: 0pt; PADDING-TOP: 0pt
+}
+DT {
+	COLOR: black; FONT-FAMILY: arial,helvetica,sans-serif; FONT-SIZE: 9pt; FONT-WEIGHT: bold; LINE-HEIGHT: 120%; MARGIN-BOTTOM: 6pt
+}
+DD {
+	COLOR: black; FONT-FAMILY: verdana,arial,helvetica,sans-serif; FONT-SIZE: 9pt; LINE-HEIGHT: 120%; MARGIN-BOTTOM: 6pt; TEXT-INDENT: 0pt
+}
+TEXTAREA {
+	COLOR: #333333; FONT-FAMILY: verdana,arial,helvetica; FONT-SIZE: 9pt
+}
+TEXTAREA {
+	COLOR: #333333; FONT-FAMILY: verdana,arial,helvetica; FONT-SIZE: 9pt
+}
+SELECT {
+	COLOR: #333333; FONT-FAMILY: verdana,arial,helvetica; FONT-SIZE: 9pt
+}
+SELECT {
+	COLOR: #333333; FONT-FAMILY: verdana,arial,helvetica; FONT-SIZE: 9pt
+}
+INPUT {
+	COLOR: #333333; FONT-FAMILY: verdana,arial,helvetica; FONT-SIZE: 9pt
+}
+INPUT {
+	COLOR: #333333; FONT-FAMILY: verdana,arial,helvetica; FONT-SIZE: 9pt
+}
+A {
+	BEHAVIOR: url('/site1/media/app/css/outfocus.htc'); COLOR: #000066; FONT-FAMILY: verdana,arial,helvetica,sans-serif; FONT-SIZE: 9pt; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #ff9933; TEXT-DECORATION: underline
+}
+A:active {
+	COLOR: #0000ff
+}
+A:unknown {
+	outline: thin dotted invert
+}
+A:link {
+	COLOR: #990000; FONT-WEIGHT: normal; TEXT-DECORATION: underline
+}
+A:visited {
+	COLOR: #990000; TEXT-DECORATION: underline
+}
+.white {
+	COLOR: white
+}
+.red {
+	COLOR: #bf003f
+}
+.blue {
+	COLOR: #003366
+}
+.green {
+	COLOR: #005428
+}
+.gold {
+	COLOR: #ffcb00
+}
+.black {
+	COLOR: black
+}
+.gray {
+	COLOR: gray
+}
+.reverse {
+	COLOR: white; FONT-WEIGHT: bold
+}
+.link {
+	COLOR: #ff9900; FONT: 9pt verdana,arial,helvetica,sans-serif; TEXT-DECORATION: underline; TEXT-TRANSFORM: none
+}
+.annuityblue {
+	COLOR: #6b8b9e
+}
+.lifegreen {
+	COLOR: #a5b299
+}
+.buff {
+	COLOR: #fff6d8
+}
+.buffPlus {
+	COLOR: #ffeeb2
+}
+.disk {
+	
+}
+.circle {
+	LIST-STYLE: circle
+}
+.square {
+	LIST-STYLE: square
+}
+.upperalpha {
+	LIST-STYLE: upper-alpha
+}
+.loweralpha {
+	LIST-STYLE: lower-alpha
+}
+.upperroman {
+	LIST-STYLE: upper-roman
+}
+.lowerroman {
+	LIST-STYLE: lower-roman
+}
+.headlines {
+	FONT-FAMILY: verdana,arial,sans-serif; FONT-SIZE: 10px; LIST-STYLE: circle url(/site1/media/img/pics/pixelArrow_dkBlue.gif)
+}
+.border {
+	BORDER-BOTTOM: gray solid; BORDER-LEFT: gray solid; BORDER-RIGHT: gray solid; BORDER-TOP: gray solid; PADDING-BOTTOM: 8pt; PADDING-LEFT: 8pt; PADDING-RIGHT: 8pt; PADDING-TOP: 8pt
+}
+.quoteThinBox {
+	BORDER-BOTTOM: #666666 thin solid; BORDER-LEFT: #666666 thin solid; BORDER-RIGHT: #666666 thin solid; BORDER-TOP: #666666 thin solid; PADDING-BOTTOM: 8pt; PADDING-LEFT: 8pt; PADDING-RIGHT: 8pt; PADDING-TOP: 8pt
+}
+.quoteMedBox {
+	BORDER-BOTTOM: gray solid; BORDER-LEFT: gray solid; BORDER-RIGHT: gray solid; BORDER-TOP: gray solid; PADDING-BOTTOM: 12pt; PADDING-LEFT: 12pt; PADDING-RIGHT: 12pt; PADDING-TOP: 12pt
+}
+.title {
+	TEXT-TRANSFORM: capitalize
+}
+.paraindent {
+	LINE-HEIGHT: 120%; TEXT-INDENT: 24pt
+}
+.paradouble {
+	LINE-HEIGHT: 2
+}
+.copyright {
+	COLOR: #666666; FONT-FAMILY: verdana,arial,helvetica,sans-serif; FONT-SIZE: 8pt; TEXT-ALIGN: center
+}
+.footnote {
+	COLOR: black; FONT-FAMILY: arial,helvetica,sans-serif; FONT-SIZE: 7pt
+}
+.footer {
+	COLOR: black; FONT-FAMILY: arial,helvetica,sans-serif; FONT-SIZE: 8pt
+}
+.author {
+	COLOR: gray; FONT-FAMILY: arial,helvetica,sans-serif; FONT-SIZE: 9pt; FONT-STYLE: italic
+}
+.tablecolhead {
+	COLOR: white; FONT-FAMILY: arial,helvetica,sans-serif; FONT-SIZE: 9pt; FONT-WEIGHT: bold; LINE-HEIGHT: 105%
+}
+.tablerowhead {
+	COLOR: black; FONT-FAMILY: arial,helvetica,sans-serif; FONT-SIZE: 9pt; FONT-WEIGHT: bold; LINE-HEIGHT: 105%
+}
+.tablecontent {
+	COLOR: black; FONT-FAMILY: verdana,arial,helvetica,sans-serif; FONT-SIZE: 8pt; LINE-HEIGHT: 105%
+}
+.tablesum {
+	COLOR: black; FONT-FAMILY: verdana,arial,helvetica,sans-serif; FONT-SIZE: 8pt; FONT-WEIGHT: bold; LINE-HEIGHT: 105%
+}
+#graynav {
+	COLOR: #666666; FONT-FAMILY: arial,helvetica, sans-serif; FONT-SIZE: 11px; FONT-WEIGHT: 800; LINE-HEIGHT: 12pt; PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px; TEXT-DECORATION: none
+}
+#graynav:hover {
+	COLOR: #ff9933
+}
+#tocnav {
+	BEHAVIOR: url('outfocus.htc'); COLOR: #000000; FONT-FAMILY: verdana,arial,helvetica, sans-serif; FONT-SIZE: 8pt; PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px; TEXT-DECORATION: none
+}
+#tocnav:hover {
+	COLOR: #ff9933
+}
+#tocnav:active {
+	COLOR: #ffff00
+}
+.backlink {
+	COLOR: #666666; FONT-FAMILY: verdana,arial,helvetica,sans-serif; FONT-SIZE: 8pt
+}
+.relatedLink {
+	FONT-FAMILY: verdana,arial,helvetica,sans-serif; FONT-SIZE: 8pt
+}
+.relatedText {
+	COLOR: black; FONT-FAMILY: verdana,arial,helvetica,sans-serif; FONT-SIZE: 8pt
+}
+.inputField {
+	COLOR: black; FONT-FAMILY: verdana,arial,helvetica,sans-serif; FONT-SIZE: 8pt; FONT-WEIGHT: normal
+}
+.updateText {
+  padding:0.5em;
+  padding-left:1em;
+}
